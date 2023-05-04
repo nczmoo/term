@@ -1,0 +1,41 @@
+extend help to specific commands
+have resource management mechanic implemented (system resources, port mechanic [in order to access a port you have to have it open])
+port mechanic - local ports must be open to access remote ports
+
+XXX you can't tell how much system resources you have
+XXX fw -o and fw -c needs a div
+XXX closing ports uses up system resources
+XXX set margin to ui.status
+
+
+
+OBVIOUS but not within time
+ be able to run multiple flags if necessary fw -o 24 -c 100
+
+implement a sim of being attacked - NEXT STAGE BEFORE MULTIPLAYER
+implement delay for nmap so its not instantaneous
+multiplayer
+file system
+connecting to remote computer and stealing root file
+crypto upgrading ports
+
+
+
+
+THINGS I DONT LIKE
+pwn a port and knowing specifically how much health it's at.
+-Maybe there should be more complexity to attacking a port than just a rote automatic attack. Like a puzzle.
+-maybe there could be a delay
+-a Minesweeper minigame??? INTERESTING IDEA
+
+
+DESIGN
+What else can I spend crypto on?
+upgrading pwn to do more damage
+upgrading crackerjack to do more passwords per second
+
+
+Once you've stolen a root file, is it just a wallet? If rootfile is more than that, and is root access to the original computer, it creates complications.
+Maybe dont' even call it root. Just call it wallet.
+
+Outside of opening a port, that should be the first step in gaining access to a computer.
